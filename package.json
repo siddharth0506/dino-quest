@@ -1,0 +1,15 @@
+{
+  "name": "dino-quest",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A dependency-free educational dinosaur runner, built on the supplied Desert Dash game.",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check dist/js/app.js && node --check dist/js/engine.js && node --check dist/js/renderer.js && node --check dist/js/dinosaur.js && node --check dist/js/audio.js && node --check dist/js/storage.js && node --check dist/data/questions.js",
+    "test": "node --test tests/game.test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

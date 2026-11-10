@@ -1,0 +1,11 @@
+run = "npm start"
+entrypoint = "dist/index.html"
+modules = ["nodejs-22"]
+
+[deployment]
+run = ["sh", "-c", "npm start"]
+deploymentTarget = "cloudrun"
+
+[[ports]]
+localPort = 3000
+externalPort = 80

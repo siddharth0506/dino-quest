@@ -1,0 +1,9 @@
+node_modules/
+.DS_Store
+*.log
+.env
+work/
+
+# Local hosting identity and generated downloads are not source.
+.openai/
+dist/*.zip
